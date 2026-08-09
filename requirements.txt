@@ -1,0 +1,69 @@
+# ==============================
+# Web API
+# ==============================
+fastapi
+uvicorn[standard]
+python-multipart
+
+# ==============================
+# Configuration & Validation
+# ==============================
+pydantic
+pydantic[email]
+pydantic-settings
+python-dotenv
+
+# ==============================
+# Database
+# ==============================
+sqlalchemy
+alembic
+asyncpg
+psycopg[binary]
+pgvector
+
+# ==============================
+# Authentication & Security
+# ==============================
+python-jose[cryptography]
+pwdlib[argon2]
+
+# ==============================
+# Rate Limiting & Redis
+# ==============================
+fastapi-limiter==0.2.0
+pyrate-limiter
+redis
+
+# ==============================
+# Azure OpenAI / LLM
+# ==============================
+openai
+langchain
+langchain-openai
+langchain-community
+langgraph
+langsmith
+
+# ==============================
+# RAG / Evaluation
+# ==============================
+ragas
+datasets
+tiktoken
+
+# ==============================
+# Document Processing
+# ==============================
+pypdf
+
+# ==============================
+# HTTP / Networking
+# ==============================
+httpx
+
+# ==============================
+# Testing
+# ==============================
+pytest
+pytest-asyncio

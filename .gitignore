@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Database
+*.db
+
+# Logs
+logs/
+
+# Uploaded files
+uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
+.env.*
+!/.env.example
+
+upload/
